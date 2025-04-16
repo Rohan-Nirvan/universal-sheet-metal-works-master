@@ -13,7 +13,7 @@ const Nav = () => {
           <img
             src="/images/Logo.svg"
             alt="Logo"
-            className="w-35 h-25 mix-blend-multiply"
+            className="w-60 h-24 mix-blend-multiply"
           />
         </Link>
         <div className="w-full flex items-center justify-between">

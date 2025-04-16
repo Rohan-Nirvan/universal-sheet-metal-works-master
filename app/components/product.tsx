@@ -47,7 +47,7 @@ const Product = () => {
   return (
     <section
       id="products"
-      className="relative w-full overflow-hidden py-36 min-h-screen text-white"
+      className="relative w-full overflow-hidden pt-43 sm:py-36 min-h-screen text-white"
     >
       {/* Our Product title */}
       <motion.div
@@ -55,7 +55,7 @@ const Product = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h2 className="text-2xl text-white text-center md:text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text font-montserrat mb-2 animate-pulse">
+        <h2 className="text-3xl md:text-4xl font-bold  text-white text-center bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text font-montserrat mb-2 animate-pulse">
           Our Products
         </h2>
         <motion.div

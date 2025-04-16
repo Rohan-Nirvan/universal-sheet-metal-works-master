@@ -396,7 +396,7 @@ const Page = () => {
             <img
               src="/images/Logo.svg"
               alt="Logo"
-              className="w-35 h-25 mix-blend-multiply"
+              className="w-60 h-24 mix-blend-multiply"
             />
           </Link>
           <div className="w-full flex items-center justify-between">
@@ -641,7 +641,7 @@ const Page = () => {
                           ]
                         }
                         alt={product.name}
-                        className="border border-gray-400 w-150 h-120 object-contain cursor-pointer transition-transform duration-300 hover:scale-105"
+                        className="border border-gray-400 h-70 md:w-150 md:h-120 object-contain cursor-pointer transition-transform duration-300 hover:scale-105"
                         onClick={() =>
                           setFullSizeImage(
                             product.images[
@@ -856,7 +856,7 @@ const Page = () => {
                 </div>
 
                 <div className="flex flex-col space-y-3 mt-4">
-                  <div className="flex items-center gap-5">
+                  <div className="flex flex-col gap-2 sm:gap-5 sm:flex-row">
                     <Link href="https://wa.me/918673008006" target="_blank">
                       <span className="flex items-center text-gray-800 hover:text-green-600 transition cursor-pointer">
                         <i className="fab fa-whatsapp text-lg text-green-600 mr-2"></i>

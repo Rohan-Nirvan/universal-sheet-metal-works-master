@@ -3,12 +3,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const About = () => {
   const router = useRouter();
 
   return (
-    <section id="about" className="pt-36 relative overflow-hidden">
+    <section id="about" className="pt-43 sm:pt-36 relative overflow-hidden">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -38,11 +39,13 @@ const About = () => {
             transition={{ duration: 1 }}
             className="w-1/2 mx-auto md:w-full"
           >
-            <img
-              src="/images/about-img-1.jpg"
-              alt="Tube Axil Fan"
-              className="lg:w-120 lg:h-70 object-cover rounded-lg shadow-2xl transform hover:scale-110 transition duration-500"
-            />
+            <Link href="/products">
+              <img
+                src="/images/about-img-1.jpg"
+                alt="Tube Axil Fan"
+                className="lg:w-120 lg:h-70 object-cover rounded-lg shadow-2xl transform hover:scale-110 transition duration-500"
+              />
+            </Link>
           </motion.div>
 
           <motion.div
@@ -111,11 +114,13 @@ const About = () => {
             transition={{ duration: 1 }}
             className="w-1/2 mx-auto md:w-full"
           >
-            <img
-              src="/images/about-img-2.jpg"
-              alt="Innovation & Mission"
-              className="lg:w-100 lg:h-70 object-cover rounded-lg shadow-2xl transform hover:scale-110 transition duration-500"
-            />
+            <Link href="/products">
+              <img
+                src="/images/about-img-2.jpg"
+                alt="Innovation & Mission"
+                className="lg:w-100 lg:h-70 object-cover rounded-lg shadow-2xl transform hover:scale-110 transition duration-500"
+              />
+            </Link>
           </motion.div>
         </div>
       </div>
@@ -125,9 +130,7 @@ const About = () => {
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto px-5">
           <iframe
-            width="340"
-            height="200"
-            className="mx-auto"
+            className="w-70 h-50 sm:w-85 sm:h-50 mx-auto"
             src="https://www.youtube.com/embed/dOnHFYf5rCs?si=VVk4xfoIVPP3IOJC"
             title="YouTube video player"
             frameBorder="0"
@@ -136,9 +139,7 @@ const About = () => {
             allowFullScreen
           ></iframe>
           <iframe
-            width="340"
-            height="200"
-            className="mx-auto"
+            className="w-70 h-50 sm:w-85 sm:h-50 mx-auto"
             src="https://www.youtube.com/embed/jLohWNU9bYU?si=-6vEhIlsp7I4caDx"
             title="YouTube video player"
             frameBorder="0"
@@ -147,9 +148,7 @@ const About = () => {
             allowFullScreen
           ></iframe>
           <iframe
-            width="340"
-            height="200"
-            className="mx-auto"
+            className="w-70 h-50 sm:w-85 sm:h-50 mx-auto"
             src="https://www.youtube.com/embed/7A6WD8fs2m8?si=sgC4ccEgtifZSTuX"
             title="YouTube video player"
             frameBorder="0"

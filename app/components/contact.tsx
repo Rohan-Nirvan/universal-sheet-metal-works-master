@@ -38,7 +38,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="pt-37 pb-20">
+    <section id="contact" className="pt-43 sm:pt-37 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
         <motion.div
@@ -179,7 +179,7 @@ const Contact = () => {
               </div>
 
               <div className="flex flex-col space-y-3 mt-4">
-                <div className="flex items-center gap-5">
+                <div className="flex flex-col gap-2 sm:gap-5 sm:flex-row">
                   <Link href="https://wa.me/918673008006" target="_blank">
                     <span className="flex items-center text-gray-800 hover:text-green-600 transition cursor-pointer">
                       <i className="fab fa-whatsapp text-lg text-green-600 mr-2"></i>

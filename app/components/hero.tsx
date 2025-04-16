@@ -66,12 +66,12 @@ const Hero = () => {
       </div>
 
       {/* For Tablet and mobile  */}
-      <div className="lg:hidden min-h-screen w-full mt-11">
+      <div className="lg:hidden min-h-screen w-full mt-43 sm:mt-11">
         <div>
           <img
             src="/images/hero-img-mobile.jpeg"
             alt=""
-            className="h-100 w-full object-cover"
+            className="h-60 sm:h-100 w-full object-cover"
           />
         </div>
         {/* Title and description */}
@@ -119,7 +119,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Social side button */}
-      <div className="z-11 fixed right-0 top-60">
+      <div className="z-11 fixed left-0 top-70">
         <div className="flex flex-col space-y-2">
           <a
             href="https://www.facebook.com/share/18cMEuBUaq/?mibextid=wwXIfr"
