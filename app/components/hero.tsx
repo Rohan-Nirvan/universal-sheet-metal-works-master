@@ -115,6 +115,14 @@ const Hero = () => {
               expanded our product range, adopted modern technology, and built a
               team of skilled professionals who are dedicated to excellence.
             </p>
+            <p className="text-sm xl:text-base text-justify text-gray-600 tracking-widest">
+              <span className="text-red-900 font-semibold">
+                Universal Sheet Metal Works
+              </span>{" "}
+              is your go-to partner for both custom and large projects,
+              providing reliable solutions for industries like HVAC,
+              construction, and others.
+            </p>
           </div>
         </div>
       </div>
